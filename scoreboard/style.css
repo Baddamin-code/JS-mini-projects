@@ -4,4 +4,16 @@
 body {
     margin: 0;
     background: rgb(235, 229, 229);
+    display: grid;
+    place-items: center;
+}
+
+div.container {
+    width: 800px;
+    max-width: 800px;
+    height: 500px;
+    background-color: #0d193c;
+    margin-top: 120px;
+    border: 5px solid white;
+    border-radius: 20px;
 }
