@@ -18,4 +18,5 @@ let prevEntries = document.getElementById("save")
 function save() {
     let prevCount = " " + count + " - "
     prevEntries.textContent += prevCount
+    count = 0
 }
