@@ -19,3 +19,39 @@ div.container {
     display: flex;
     justify-content: space-around;
 }
+
+.side {
+    position: relative;
+    left: 32px;
+    font-family: 'inter', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 60px 0;
+}
+
+.score-cont {
+    width: 180px;
+    height: 140px;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL';
+    text-align: center;
+    color: #F94F6D;
+    transform: translateY(60%);
+    font-size: 60px;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    background-color: inherit;
+    color: #9AABD8;
+    border: 1px dashed #9AABD8;
+    margin-right: 10px;
+    position: relative;
+    left: 5px;
+}
