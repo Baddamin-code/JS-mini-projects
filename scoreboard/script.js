@@ -22,3 +22,24 @@ function increaseHomeBy3() {
     homeScore.textContent = score1
 }
 
+let score2 = 0
+let guestScore = 0
+guestScore = document.querySelectorAll(".score")[1]
+
+// function to increase away score by 1
+function increaseAwayBy1() {
+    score2++
+    guestScore.textContent = score2
+}
+
+// function to increase away score by 2
+function increaseAwayBy2() {
+    score2 += 2
+    guestScore.textContent = score2
+}
+
+// function to increase away score by 3
+function increaseAwayBy3() {
+    score2 += 3
+    guestScore.textContent = score2
+}
