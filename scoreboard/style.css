@@ -58,3 +58,9 @@ button {
     font-size: 18px;
     font-family: 'Cursed Timer ULiL';
 }
+
+button:hover, 
+button:focus {
+    cursor: pointer;
+    background-color: rgba(37, 59, 127, 0.173);
+}
