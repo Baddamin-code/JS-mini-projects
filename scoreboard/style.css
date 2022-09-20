@@ -6,6 +6,7 @@ body {
     background: rgb(235, 229, 229);
     display: grid;
     place-items: center;
+    cursor: default;
 }
 
 div.container {
