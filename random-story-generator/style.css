@@ -42,3 +42,10 @@ label[for="customName"] {
     visibility: visible;
 }
 
+input {
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+    height: 26px;
+}
+
