@@ -61,3 +61,11 @@ p {
     visibility: hidden;
 }
 
+button {
+    padding: 10px 5px;
+    border: none;
+    background: linear-gradient(to right, rgba(20, 194, 64, 0.435), rgba(226, 92, 43, 0.453));
+    cursor: pointer;
+
+    
+}
