@@ -38,3 +38,7 @@ label[for="customName"] {
     visibility: hidden;
 }
 
+.custom-name:hover .tooltip {
+    visibility: visible;
+}
+
