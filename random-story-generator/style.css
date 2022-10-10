@@ -9,3 +9,12 @@ body {
 
 }
 
+.container {
+    display: grid;
+    place-items: center;
+    width: 500px;
+    max-width: 500px;
+    margin: 50px;
+    text-align: center;
+}
+
