@@ -10,3 +10,4 @@ change <p> text content to randomly generated story
 */
 
 let btn = document.getElementById('btn')
+let story = document.getElementsByClassName('random-story')[0]
