@@ -1,0 +1,2 @@
+This is a scoreboard counter with buttons incrementing the scoreboard by 1, 2 and 3 respectively when clicked.
+The idea is based off a basketball scoreboard and how the both side's score is incremented and recorded in the game.
