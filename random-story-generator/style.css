@@ -49,3 +49,15 @@ input {
     height: 26px;
 }
 
+p {
+    width: 500px;
+    max-width: 500px;
+    padding: 8px;
+    background-color: rgba(174, 255, 0, 0.755);
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgba(1, 26, 41, 0.925);
+    visibility: hidden;
+}
+
