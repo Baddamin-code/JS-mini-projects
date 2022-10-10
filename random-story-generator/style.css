@@ -24,3 +24,17 @@ label[for="customName"] {
     font-size: 20px;
 }
 
+.custom-name .tooltip {
+    position: absolute;
+    width: 150px;
+    bottom: 25px;
+    right: 10px;
+    padding-top: 3px 0;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgba(69, 94, 202, 0.313);
+    font-size: 12px;
+    color: rgb(11, 8, 37);
+    visibility: hidden;
+}
+
