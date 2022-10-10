@@ -21,3 +21,11 @@ let arrayOfStory = ["The bubbly bubbles came back after the clowns resurrected h
 "Something happened in the lab the other night. I\’m not certain what but it was something.I powered up the device, and there she was. It was a possibility I hadn\’t considered.",
 "Your eyes pour the moonlight on my path as I turn my back to you. In the dead of the night, I walk with my family, away from my home, my street, my town, and what was till yesterday- my country.",
 "Zelina walked in the middle of the train track. She and her sister used to lay in bed listening for the comforting whistle of the train that passed at three o\’clock every morning."]
+
+btn.addEventListener('click', function(){
+    const randomStory = arrayOfStory[Math.floor(Math.random() * arrayOfStory.length)]
+    story.textContent = randomStory
+     
+})
+
+// console.log(arrayOfStory[7]) 
