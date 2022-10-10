@@ -8,3 +8,5 @@ create a var that stores random stories
 change <p> text content to randomly generated story
 
 */
+
+let btn = document.getElementById('btn')
