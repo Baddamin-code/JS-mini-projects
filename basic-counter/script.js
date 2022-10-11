@@ -2,13 +2,14 @@
 // grab .clicked button and link to var count
 
 let count = 0
-document.getElementsByClassName('clicked')[0].textContent = count
+let increase = document.querySelector('.clicked')
 
 
 // write a function that increments count by one everytime .click button is clicked
 
 function increment() {
-    document.getElementsByClassName('clicked')[0].textContent = count++
+    count++;
+    increase.textContent = count;
 }
 
 // Write a function that saves and logs the previous entry everytime .save button is clicked
