@@ -82,3 +82,21 @@ h1 {
     font-size: 80px;
     font-family: 'Monoton', sans-serif;
 }
+
+button {
+    background: transparent;
+    border: 1px dashed black;
+    width: 140px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.621);
+    transition: all 0.2s linear;
+}
+
+button:hover,
+button:focus {
+    border: 2px solid white;
+    color: rgba(245, 245, 245, 0.6);
+}
