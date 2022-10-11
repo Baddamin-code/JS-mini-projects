@@ -27,3 +27,10 @@ let colors = [
   "#f8f9fa",
   "#343a40",
 ];
+
+btn.addEventListener('click', function(){
+    // randomize and store random colors in a variable
+    let randomColor = colors[Math.floor(Math.random() * colors.length)];
+    // change cont bgc when button is clicked
+    cont.style.backgroundColor =  randomColor;
+})
