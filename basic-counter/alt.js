@@ -16,6 +16,9 @@ btns.forEach(function (btn) {
         // if statement to increase value
         if (clickBtn.contains("increase")){
             count++;
-        } 
+        } // if statement to decrease value
+        else if (clickBtn.contains("decrease")) {
+            count--;
+        }
     })
 })
