@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+body {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #05276a70;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav ul:first-child {
+    position: relative;
+    right: 60px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+
+.main, .alt {
+    position: relative;
+    top: 35px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgba(133, 45, 45, 0.769);
+    padding: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main:hover, 
+.alt:hover {
+    color: rgb(197, 52, 52);
+}
+
+.main:focus, .alt:focus {
+    border: 1px solid rgba(0, 0, 0, 0.836);
+    border-radius: 15px;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3 span {
+    color: darkgoldenrod;
+}
+
+div .container {
+    max-width: 300px;
+    display: grid;
+    place-items: center;
+    background-color: blanchedalmond;
+    padding: 30px 60px;
+    margin-top: 120px;
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Inter Tight',sans-serif;
+    font-size: 40px;
+}
+
+button {
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgba(0, 8, 255, 0.694);
+    border: 1px solid white;
+    border-radius: 12px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.709);
+    margin-bottom: 20px;
+}
+
+button:hover {
+    border: 2px solid rgba(0, 0, 0, 0.672);
+    color: rgba(0, 0, 0, 0.677);
+}
+
+p#save {
+    font-size: 28px;
+}
+
