@@ -12,6 +12,10 @@ btns.forEach(function (btn) {
     // add event listener to listen for button click
     btn.addEventListener('click', function(e) {
         // create a var that targets each button through the class name
-
+        const clickBtn = e.currentTarget.classList;
+        // if statement to increase value
+        if (clickBtn.contains("increase")){
+            count++;
+        } 
     })
 })
