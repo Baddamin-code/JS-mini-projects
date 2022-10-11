@@ -9,6 +9,14 @@ body {
     background-color: #0049a879;
 }
 
+.container {
+    width: 600px;
+    max-width: 600px;
+    height: 400px;
+    max-height: 400px;
+    text-align: center;
+}
+
 nav {
     width: 100%;
 }
