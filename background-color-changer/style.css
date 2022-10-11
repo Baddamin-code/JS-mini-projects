@@ -16,3 +16,16 @@ div {
     max-height: 100%;
     background-color: #aaccee;
 }
+
+button {
+    position: absolute;
+    transform: translate(-10%, -50%);
+    width: 200px;
+    height: 80px;
+    border: none;
+    background-color: cadetblue;
+    color: chocolate;
+    font-family: 'Silkscreen';
+    font-size: x-large;
+
+}
