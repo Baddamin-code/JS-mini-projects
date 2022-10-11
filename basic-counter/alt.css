@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Lilita+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Monoton:regular);
 
 
 body {
@@ -22,6 +23,10 @@ h2 {
     font-size: 60px;
     font-family: 'Lilita One', sans-serif;
     color: rgba(241, 216, 191, 0.678);
+}
+h1 {
+    font-size: 80px;
+    font-family: 'Monoton', sans-serif;
 }
 
 nav {
