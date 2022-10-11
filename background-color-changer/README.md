@@ -1,0 +1,1 @@
+This app changes the HTML page background color everytime the button is clicked
