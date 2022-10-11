@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Counter</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <h3>Basic <span>Counter</span></h3>
+            </li>
+            <li>
+                <a class="main" href="index.html">Counter 1</a>
+            </li>
+            <li>
+                <a class="alt" href="alt.html">Counter 2</a>
+            </li>
+        </ul>
+    </nav>
     <div class="container">
-        <h2>No. of times clicked:</h2>
-        <h2 class="clicked">0</h2>
-        <button class="click" onclick="increment()">Click Me</button>
-        <button class="save" onclick="save()">Save</button>
-        <p id="save">Previous Entries:</p>
+        <main>
+
+            <h2>No. of times clicked:</h2>
+            <h2 class="clicked">0</h2>
+            <button class="click" onclick="increment()">Increase</button>
+            <br>
+            <button class="save" onclick="save()">Save</button>
+            <p id="save">Previous Entries:</p>
+
+        </main>
     </div>
 
 
 
 
 
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
