@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+
+body {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #0049a879;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav ul:first-child {
+    position: relative;
+    right: 60px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: darkkhaki;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3 span {
+    color: darkgoldenrod;
+}
+
+.main, .alt {
+    position: relative;
+    top: 35px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgba(133, 45, 45, 0.769);
+    padding: 8px;
+}
+
+.main:hover, 
+.alt:hover {
+    color: rgb(197, 52, 52);
+}
+
+.main:focus, .alt:focus {
+    border: 1px solid rgba(0, 0, 0, 0.836);
+    border-radius: 15px;
+}
