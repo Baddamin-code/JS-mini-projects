@@ -65,3 +65,12 @@ h3 span {
     color: darkgoldenrod;
 }
 
+div .container {
+    max-width: 300px;
+    display: grid;
+    place-items: center;
+    background-color: blanchedalmond;
+    padding: 30px 60px;
+    margin-top: 120px;
+}
+
