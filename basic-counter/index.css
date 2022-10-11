@@ -12,6 +12,7 @@ body {
 main {
     width: 100%;
     max-width: 400px;
+    text-align: center;
 }
 
 nav {
@@ -53,3 +54,14 @@ nav ul li{
     border: 1px solid rgba(0, 0, 0, 0.836);
     border-radius: 15px;
 }
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3 span {
+    color: darkgoldenrod;
+}
+
