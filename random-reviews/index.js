@@ -54,6 +54,15 @@ const prevBtn = document.getElementById('prev-btn')
 
 let currentItem = 0
 
-nextBtn.addEventListener('click', function () {
 
+nextBtn.addEventListener('click', function () {
+    const item = reviews[currentItem];
+    // change following data onClick
+    img.src = item.img;
+    author.textContent = item.name;
+    job.textContent = item.job;
+    review.textContent = item.text;
+    // increment current item
+    currentItem++;
 });
+
