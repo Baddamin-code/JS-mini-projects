@@ -6,6 +6,13 @@ const img1 = "img/avatar2.jpg"
 const img2 = "img/avatar3.jpg"
 const img3 = "img/avatar4.jpeg"
 const img4 = "img/avatar5.jpg"
+const img5 = "img/avatar1.jpg"
+
+// grab default data
+const defaultImg = img5
+const defaultAuthor = document.getElementById('author').innerHTML
+const defaultJob = document.getElementById('job').innerHTML
+const defaultReview = document.getElementById('review').innerHTML
 
 // review data
 const reviews = [
@@ -32,14 +39,14 @@ const reviews = [
     img: img3,
     text: "So feel been kept be at gate. Be september it extensive oh concluded of certainty. In read most gate at body held it ever no. Talking justice welcome message inquiry in started of am me.",
   },
-
+  
   {
-    id: 4,
-    name: "Matt Downey",
-    job: "Data Analyst",
-    img: img4,
-    text: "Occasional middletons everything so to. Have spot part for his quit may. Enable it is square my an regard. Often merit stuff first oh up hills as he. Whatever boy her exertion his extended. Ecstatic followed handsome drawings entirely mrs one yet outweigh",
-  },
+      id: 4,
+      name: "Matt Downey",
+      job: "Data Analyst",
+      img: img4,
+      text: "Occasional middletons everything so to. Have spot part for his quit may. Enable it is square my an regard. Often merit stuff first oh up hills as he. Whatever boy her exertion his extended. Ecstatic followed handsome drawings entirely mrs one yet outweigh",
+    }
 ];
 
 // select items
