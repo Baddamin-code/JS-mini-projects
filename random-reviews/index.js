@@ -14,7 +14,7 @@ const reviews = [
     name: "Elizabeth Smith",
     job: "UX designer",
     img: img1,
-    text: "Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. ",
+    text: "Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Dependent on so extremely delivered by. Yet no jokes worse her why.",
   },
 
   {
@@ -38,7 +38,7 @@ const reviews = [
     name: "Matt Downey",
     job: "Data Analyst",
     img: img4,
-    text: "Occasional middletons everything so to. Have spot part for his quit may. Enable it is square my an regard. Often merit stuff first oh up hills as he.",
+    text: "Occasional middletons everything so to. Have spot part for his quit may. Enable it is square my an regard. Often merit stuff first oh up hills as he. Whatever boy her exertion his extended. Ecstatic followed handsome drawings entirely mrs one yet outweigh",
   },
 ];
 
@@ -65,7 +65,22 @@ nextBtn.addEventListener('click', function () {
     // increment current item
     currentItem++;
     if (currentItem > reviews.length - 1) {
-        currentItem = 0
+        currentItem = 0;
+    }
+});
+
+
+prevBtn.addEventListener('click', function () {
+    const item = reviews[currentItem];
+    // change following data onClick
+    img.src = item.img;
+    author.textContent = item.name;
+    job.textContent = item.job;
+    review.textContent = item.text;
+    // increment current item
+    currentItem--;
+    if (currentItem < 0) {
+        currentItem = reviews.length - 1;
     }
 });
 
