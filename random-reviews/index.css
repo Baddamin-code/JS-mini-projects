@@ -70,3 +70,24 @@ p {
     color: rgb(0, 45, 14);
     text-align: center;
 }
+
+button {
+    border: none;
+    background-color: transparent;
+    color: rgba(0, 223, 71, 0.86);
+    font-size: 20px;
+    padding: 0px 6px;
+}
+
+button:first-child {
+    margin-right: 15px;
+}
+
+button:hover, 
+button:focus {
+    color: rgb(0, 119, 38);
+}
+
+button:focus {
+    border: 1px solid rgba(0, 119, 38, 0.356);
+}
