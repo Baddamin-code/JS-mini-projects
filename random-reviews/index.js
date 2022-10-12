@@ -42,4 +42,13 @@ const reviews = [
   },
 ];
 
+// select items
+let img = document.getElementById('img')
+let author = document.getElementById('author')
+let job = document.getElementById('job')
+let review = document.getElementById('review')
+
+// select buttons
+const nextBtn = document.getElementById('next-btn')
+const prevBtn = document.getElementById('prev-btn')
 
