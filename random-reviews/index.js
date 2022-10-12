@@ -64,5 +64,8 @@ nextBtn.addEventListener('click', function () {
     review.textContent = item.text;
     // increment current item
     currentItem++;
+    if (currentItem > reviews.length - 1) {
+        currentItem = 0
+    }
 });
 
