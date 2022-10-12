@@ -46,7 +46,15 @@ const reviews = [
       job: "Data Analyst",
       img: img4,
       text: "Occasional middletons everything so to. Have spot part for his quit may. Enable it is square my an regard. Often merit stuff first oh up hills as he. Whatever boy her exertion his extended. Ecstatic followed handsome drawings entirely mrs one yet outweigh",
-    }
+    },
+    
+      {
+        id: 5,
+        name: defaultAuthor,
+        job: defaultJob,
+        img: defaultImg,
+        text: defaultReview,
+      }
 ];
 
 // select items
