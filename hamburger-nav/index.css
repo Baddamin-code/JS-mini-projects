@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Baloo+2:regular,500,600,700,800);
+
+/* undo default styling */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 30px;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Baloo 2';
+    font-weight: 500;
+    color: rgb(24, 0, 0);
+    text-shadow: 3px 3px 5px #485477;
+}
+
+h1 span {
+    color: rgba(128, 255, 0, 0.591);
+    text-shadow: 2px 3px 5px #2c5527;
+}
+
+ul {
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+
+
+ul li {
+    margin-right: 40px;
+    font-size: 24px;
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+
+}
