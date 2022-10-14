@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Baloo+2:regular,500,600,700,800);
-
+@import url(https://fonts.googleapis.com/css?family=Corben:regular,700);
 /* undo default styling */
 * {
     box-sizing: border-box;
@@ -17,6 +17,7 @@ body {
 }
 
 h1 {
+    margin-left: 20px;
     font-size: 40px;
     font-family: 'Baloo 2';
     font-weight: 500;
@@ -32,16 +33,29 @@ h1 span {
 ul {
     display: flex;
     position: relative;
-    top: 20px;
+    top: 6px;
 }
 
 
 ul li {
     margin-right: 40px;
+    padding: 5px 10px;
     font-size: 24px;
     list-style-type: none;
 }
-ul li a {
-    text-decoration: none;
 
+ul li:last-child {
+    margin-right: 10px;
 }
+
+ul li a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Corben';
+    color: #2c5527;
+}
+
+ul li a:hover {
+    color: #368c2b;
+}
+
