@@ -59,7 +59,16 @@ ul li a:hover {
     color: #368c2b;
 }
 
-
+/* add bottom border to focus state */
+.page-nav li a:focus::before {
+    content: '';
+    color: #368c2b;
+    position: absolute;
+    border-bottom: 3px solid #0c6700;
+    width: 60%;
+    bottom: 0;
+    left: 14px;
+}
 
 /* hide hamburger button */
 button {
