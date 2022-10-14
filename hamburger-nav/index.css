@@ -29,7 +29,9 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    position: relative;
+    left: 20px;
+    font-size: 30px;
     font-family: 'Baloo 2';
     font-weight: 500;
     color: rgb(24, 0, 0);
@@ -50,14 +52,14 @@ ul {
 
 
 ul li {
-    margin-right: 20px;
-    padding: 5px 10px;
-    font-size: 24px;
+    margin-right: 10px;
+    padding: 3px 6px;
+    font-size: 18px;
     list-style-type: none;
 }
 
 ul li:last-child {
-    margin-right: 0px;
+    margin-right: 5px;
 }
 
 ul li a {
@@ -71,6 +73,10 @@ ul li a:hover {
     color: #368c2b;
 }
 
+.page-nav {
+    position: relative;
+}
+
 /* add bottom border to focus state */
 .page-nav li a:focus::before {
     content: '';
@@ -79,7 +85,7 @@ ul li a:hover {
     border-bottom: 3px solid #0c6700;
     width: 60%;
     bottom: 0;
-    left: 14px;
+    left: 10px;
 }
 
 /* hide hamburger button */
@@ -87,10 +93,51 @@ button {
     position: absolute;
     width: 0px;
     height: 0px;
-    /* visibility: hidden; */
+    overflow: hidden;
 }
 
 button i {
     font-size: 0px;
 }
 
+@media screen and (max-width: 800px) {
+
+    .nav-center {
+        flex-direction: column;
+        padding: 0rem 1rem;
+    }
+
+    .page-nav {
+        flex-direction: column;
+        /* hide links by default at 800px screen size */
+        height: 0;
+        overflow: hidden;
+    }
+
+    /* property to show links when button is toggled */
+    .show-links {
+        height: 10rem;
+    }
+
+    h1 {
+        left: 5px;
+    }
+
+    button {
+        width: 35px;
+        height: 30px;
+        background-color: transparent;
+        right: 10px;
+        border: none;
+    }
+
+    button i {
+        font-size: 28px;
+        color: #0c6700;
+    }
+
+    .page-nav li a:focus::before {
+        content: '';
+        border-bottom: none;
+    }
+}
