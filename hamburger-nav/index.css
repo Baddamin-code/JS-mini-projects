@@ -59,3 +59,10 @@ ul li a:hover {
     color: #368c2b;
 }
 
+
+
+/* hide hamburger button */
+button {
+    position: absolute;
+    visibility: hidden;
+}
