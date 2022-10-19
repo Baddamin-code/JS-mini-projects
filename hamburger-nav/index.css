@@ -136,6 +136,15 @@ button i {
         color: #0c6700;
     }
 
+    .nav-toggle {
+        transition: all 0.3s linear;
+    }
+
+    .nav-toggle:hover {
+        color: white;
+        transform: rotate(90deg);
+      }
+
     .page-nav li a:focus::before {
         content: '';
         border-bottom: none;
