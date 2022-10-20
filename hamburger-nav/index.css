@@ -75,6 +75,7 @@ ul li a:hover {
 
 .page-nav {
     position: relative;
+    transition: all 0.3s linear;
 }
 
 /* add bottom border to focus state */
@@ -117,6 +118,7 @@ button i {
     /* property to show links when button is toggled */
     .show-links {
         height: 10rem;
+        transition: all 0.3s linear;
     }
 
     h1 {
