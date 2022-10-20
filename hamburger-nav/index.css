@@ -143,7 +143,6 @@ button i {
     }
 
     .nav-toggle:hover {
-        color: white;
         transform: rotate(90deg);
       }
 

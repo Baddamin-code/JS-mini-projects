@@ -11,5 +11,5 @@ btn.addEventListener('click', function() {
     //     pages.classList.add('show-links')
     // }
     // one-liner code to toggle the nav button onclick
-    pages.classList.toggle('show-links')
+    pages.classList.toggle('show-links');
 })
